@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
+    <script src="main.js" defer></script>
+    
+    <title>Home page</title>
+</head>
+<body>
+
+    <header class="header">
+        
+        <div class="logo">
+            <a href="index.html"> 
+                <img src="/new project/bilder/sthml_in_my_hrt 1.svg" alt="company logo" width="250" height="100"> </a>
+            </div>
+        <nav class="navbar">
+            <a href="index.html" class="is-current">home</a>
+            <a href="about.html">about</a>
+            <a href="services.html">services</a>
+            <a href="references.html">references</a>
+            <a href="contact.html">contact</a>
+        </nav>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="info-btn" class="fas fa-info-circle"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            
+        </div>
+        <form  class="search-form">
+            <input type="search" placeholder="search here" id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        
+    </header>
+
+    <div class="contact-info">
+        <div id="close-contact-info" class="fas fa-times"></div>
+
+        <div class="info">
+            <i class="fas fa-phone"></i>
+            <h3>Phone number</h3>
+            <p>020-000-100-100</p>
+            <p>020-000-100-100</p>
+        </div>
+
+        <div class="info">
+            <i class="fas fa-envelope"></i>
+            <h3>Email</h3>
+            <p>WeLoveSTHML@gmail.com</p>
+            
+        </div>
+
+        <div class="info">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Our office</h3>
+            <p>Nybrokajen 2, 111 48 Stockholm</p>
+        </div>
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+        </div>
+    </div>
+    
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+            
+            <div class="swiper-wrapper">
+                <section class="swiper-slide slide" style="background: url(bilder/hoodie2.png) no-repeat;">
+                    <div class="content">
+                        <h3>Unleash ur HEART</h3>
+                        <p>
+                            We want to spread love about our country so you feel welcomed, do you want to find out who we are?
+
+                        </p>
+                        <a href="about.html" class="btn"> get started</a>
+                    </div>
+                </section>
+
+                <section class="swiper-slide slide" style="background: url(bilder/logo1.png) no-repeat;">
+                    <div class="content">
+                        <h3>Buy our merch!</h3>
+                        <p>
+                            We have different kind of clothing just for you and more!
+                        </p>
+                        <a href="services.html" class="btn"> Buy now!</a>
+                    </div>
+
+                </section>
+
+                <section class="swiper-slide slide" style="background: url(bilder/shoe.png) no-repeat;">
+                    <div class="content">
+                        <h3>Leave a feedback!</h3>
+                        <p>
+                            Our customers are the happiest in the world!
+                        </p>
+                        <a href="references.html" class="btn"> Leave a feedback now!</a>
+                    </div>
+
+                </section>
+
+                <section class="swiper-slide slide" style="background: url(bilder/contact.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Contact us</h3>
+                        <p>
+                            Get to know our loctation and much more!
+                        </p>
+                        <a href="contact.html" class="btn"> Give us a call!</a>
+                    </div>
+
+                </section>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+       <section class="contact" id="contact">
+            <h1 class="heading">Little about the company</h1>
+            <div class="box-container">
+                <div class="box">
+                    <h3>History</h3>
+                    <p class="para">We started this company back in 1996 and still continueing to grow! We started this as a school project and grew up together and now we are here! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia hic ullam consectetur. Optio quod quaerat enim. Earum repellendus officiis libero molestiae adipisci dolorum atque soluta repudiandae in nesciunt voluptatum voluptatem ea, veniam nobis unde recusandae? Rerum architecto deserunt fugiat aliquam quisquam alias aliquid, doloribus fuga expedita, autem voluptas ut dolore inventore veritatis. Inventore earum magnam soluta delectus esse, deserunt exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias doloremque quam fugiat repellat consectetur odit non animi eveniet reprehenderit possimus.</p>
+                </div>
+            </div>
+        </section>
+    </section>
+    
+
+    <section class="footer">
+        <div class="links">
+            <a class="btn" href="index.html">home</a>
+            <a class="btn" href="about.html">about</a>
+            <a class="btn" href="services.html">services</a>
+            <a class="btn" href="references.html">references</a>
+            <a class="btn" href="contact.html">contact</a>
+        </div>
+
+        <div class="credit">© 2022 created by <span> Ezqu</span></div>
+    </section>
+    
+</body>
+</html>
